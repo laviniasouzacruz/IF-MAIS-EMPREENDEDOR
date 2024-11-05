@@ -6,7 +6,7 @@
   Responsáveis pela divulgação do Projeto: João Eduardo; Lavinia Souza; Maria Clara; Maria Eduarda; Isadora Teixeira.
 </p>
 <p>
-  Link do Instagram do Projeto: https://www.instagram.com/ifmaisempreendedor.tb?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==
+  Link do Instagram do Projeto: https://www.instagram.com/ifmaisempreendedor.tb?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==<br>
   Link do site do Projeto: https://coenstb.my.canva.site/ifmaisempreendedortb
 </p>
 <p>
