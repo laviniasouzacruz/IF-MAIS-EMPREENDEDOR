@@ -8,7 +8,7 @@
 <p>
   Link da estrutura do site do Projeto: https://llavysouza.github.io/IF-MAIS-EMPREENDEDOR/participantes.html
   Link do Instagram do Projeto: https://www.instagram.com/ifmaisempreendedor.tb?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==<br>
-  Link do site do Projeto: https://coenstb.my.canva.site/ifmaisempreendedortb
+  Protótipo do site do Projeto: https://coenstb.my.canva.site/ifmaisempreendedortb
 </p>
 <p>
   O programa tem como objetivo capacitar microempreendedores individuais (MEIs) do setor de prestação de serviços da região de Telêmaco Borba a otimizarem seus negócios através do uso de ferramentas digitais e de gestão para os processos 
