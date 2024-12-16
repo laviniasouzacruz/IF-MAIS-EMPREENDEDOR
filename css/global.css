@@ -1,46 +1,111 @@
+/* Fonte principal */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Configurações globais */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .title {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9; /* Fundo neutro e claro */
+  color: #333; /* Texto em tom escuro para leitura */
+}
+
+h3, h5 {
+  color: #343a40; /* Títulos em tom escuro */
+  font-weight: 600; /* Destaque para os títulos */
+  margin-bottom: 15px;
+}
+
+p {
+  line-height: 1.6; /* Melhor legibilidade */
+  margin-bottom: 10px;
+  color: #555; /* Texto secundário em tom levemente mais claro */
+}
+
+/* Estilo da navbar */
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar-brand img {
+  max-height: 50px; /* Redimensiona a logo para manter proporção */
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #f8c84c !important; /* Destaque no hover */
+}
+
+/* Container principal */
+.container {
+  padding: 40px 20px;
+}
+
+/* Estilo para as colunas */
+.content {
+  display: flex;
+  gap: 30px;
+}
+
+.left-column, .right-column {
+  flex: 1;
+}
+
+.left-column {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+.right-column {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+/* Estilo para listas */
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+/* Rodapé */
+.mt-5 {
+  margin-top: 40px !important;
+}
+
+footer {
+  background-color: #343a40;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #f8c84c;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
   .content {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    flex-direction: column;
   }
-  
-  .left-column, .right-column {
-    flex: 1;
+  .navbar-brand img {
+    max-height: 40px;
   }
-  
-  h5 {
-    margin-top: 20px;
-    color: #2c3e50;
-  }
-  
-  p {
-    margin-bottom: 15px;
-    line-height: 1.6;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  ul li {
-    margin-bottom: 10px;
-  }
+}
