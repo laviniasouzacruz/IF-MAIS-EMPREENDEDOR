@@ -1,7 +1,9 @@
+@import url(main.css);
+
 /* Configurações globais */
 body {
   background: beige; /* Cor do fundo */
-  font-family: Arial, sans-serif; /* Fonte padrão */
+  font-family: var(--font); /* Fonte padrão */
   font-size: 16px; /* Tamanho do texto */
   margin: 0;
   padding: 0;
