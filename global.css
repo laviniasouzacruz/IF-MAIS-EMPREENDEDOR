@@ -29,7 +29,7 @@ body {
 
 .menu-principal a {
   text-decoration: none; /* tira o sublinhado */
-  color: white;           /* cor dos links */
+  color: var(--verde-100);           /* cor dos links */
   font-weight: bold;
   font-family: Arial, sans-serif;
   transition: 0.3s;
