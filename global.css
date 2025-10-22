@@ -1,5 +1,5 @@
 .root {
-  --verde-100: #71b877;
+  --verde-100: #35883c;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
@@ -15,7 +15,7 @@ body {
 
 /* Menu principal */
 .menu-principal {
-  background-color: #4cd964; /* verde claro */
+  background-color: var(--verde-100); /* verde claro */
   padding: 10px 20px;
 }
 
