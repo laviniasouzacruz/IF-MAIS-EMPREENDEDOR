@@ -13,10 +13,28 @@ body {
     color: #333; /* Cor do texto principal */
 }
 
+/* Menu principal */
 .menu-principal {
-    display: flex;              /* deixa logo e menu na mesma linha */
-    justify-content: space-between; /* espaça logo e menu */
-    align-items: center;        /* alinha verticalmente */
-    background-color: var(--verde-100)    /* verde claro */;
-    padding: 10px 20px;         /* espaçamento interno */
+  background-color: #4cd964; /* verde claro */
+  padding: 10px 20px;
+}
+
+.menu-principal ul {
+  list-style: none;   /* remove marcadores */
+  margin: 0;
+  padding: 0;
+  display: flex;      /* deixa os itens na horizontal */
+  gap: 20px;          /* espaço entre os links */
+}
+
+.menu-principal a {
+  text-decoration: none; /* tira o sublinhado */
+  color: white;           /* cor dos links */
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.menu-principal a:hover {
+  color: #333;            /* muda a cor ao passar o mouse */
 }
