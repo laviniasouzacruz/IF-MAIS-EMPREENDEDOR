@@ -1,40 +1,62 @@
-.root {
-  --verde-100: #35883c;
-}
+:root {
+  --verde-100:   #50965a;
+  --verde-200:   #36693b;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+  --cinza-100:   #dbdbdb;
+}
 
 body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #f9f9f9; /* Cor de fundo suave */
-    color: #333; /* Cor do texto principal */
+  font-family: 'Poppins', sans-serif; /* define a fonte padrão */
+  margin: 0; /* remove margens padrão */
+  padding: 0; /* remove espaçamento interno padrão */
+  box-sizing: border-box; /* inclui bordas e paddings na largura total do elemento */
+  background-color: var(--cinza-100); /* cor de fundo suave */
+  color: #333; /* cor padrão do texto */
 }
 
-/* Menu principal */
+/* ===== MENU PRINCIPAL ===== */
 .menu-principal {
-  background-color: var(--verde-100); /* verde claro */
-  padding: 10px 20px;
+  background-color: var(--verde-200); /* cor de fundo verde */
+  padding: 0px 20px; /* aumenta a espessura do menu */
+  display: flex; /* coloca logo e menu lado a lado */
+  align-items: center; /* centraliza verticalmente */
+  justify-content: flex-start; /* deixa logo e links alinhados à esquerda */
 }
 
+/* ===== LOGO ===== */
+.logo-menu-principal img {
+  width: 250px; /* define o tamanho da imagem da logo */
+  height: auto; /* mantém proporção correta da imagem */
+  display: block; /* evita espaçamento indesejado abaixo da imagem */
+}
+
+/* ===== LISTA DE LINKS ===== */
 .menu-principal ul {
-  list-style: none;   /* remove marcadores */
-  margin: 0;
-  padding: 0;
-  display: flex;      /* deixa os itens na horizontal */
-  gap: 20px;          /* espaço entre os links */
+  list-style: none; /* remove bolinhas da lista */
+  display: flex; /* coloca os itens um ao lado do outro */
+  gap: 27px; /* define o espaçamento entre os links */
+  margin: 0; /* remove margens padrão */
+  padding: 0; /* remove padding padrão */
+  align-items: left; /* alinha os itens à direita */
 }
 
+/* ===== LINKS ===== */
 .menu-principal a {
-  text-decoration: none; /* tira o sublinhado */
-  color: var(--verde-100);           /* cor dos links */
-  font-weight: bold;
-  font-family: Arial, sans-serif;
-  transition: 0.3s;
+  text-decoration: none; /* remove o sublinhado dos links */
+  color: white; /* deixa o texto dos links branco */
+  font-weight: 600; /* deixa o texto mais marcante */
+  font-size: 16px; /* tamanho levemente maior */
+  transition: 0.3s; /* suaviza o efeito ao passar o mouse */
 }
 
+/* ===== EFEITO AO PASSAR O MOUSE ===== */
 .menu-principal a:hover {
-  color: #333;            /* muda a cor ao passar o mouse */
+  color: #d1cfcf; /* muda levemente a cor do link */
+}
+
+/* ===== TEXTO INDEX ===== */
+.text-index {
+  margin: 10px auto; /* espaçamento em cima e embaixo */
+  padding: 20px; /* espaçamento interno */
+  max-width: 800px; /* largura máxima para melhor leitura */
 }
